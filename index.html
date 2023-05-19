@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/style.css" rel="stylesheet">
+  <title>Meu portifólio</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        John Doe
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#work" class='active'>Inicio</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+        </ul>
+      </nav>
+
+      <div class="btn-group">
+        <a href="#">
+          <img src="./img/github-icon.png" alt="github profile">
+        </a>
+        <a href="#">
+          <img src="./img/linkedin-icon.png" alt="linkedin profile">
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <article class="hero" id="hero">
+      <div class="left">
+        <h1>Olá, eu sou John Doe</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        <a href="#" class="btn">Contate-me</a>
+      </div>
+      <div class="right">
+        <img src="./img/developer.svg" alt="hero image">
+      </div>
+    </article>
+
+    <article class="skills" id="skills">
+      <h2>Minhas Habilidades</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <img src="./img/skills/jest.svg" alt="html5">
+          <h3>HTML5</h3>
+        </div>
+        <div class="skill">
+          <img src="./img/skills/nextjs.svg" alt="css3">
+          <h3>CSS3</h3>
+        </div>
+        <div class="skill">
+          <img src="./img/skills/javascript.svg" alt="javascript">
+          <h3>JavaScript</h3>
+        </div>
+      </div>
+    </article>
+
+    <!-- Projects -->
+    <article class="projects" id="projects">
+      <h2>Meus Projetos</h2>
+      <div class="projects-container">
+        <div class="project" id="project1">
+          <img src="./img/r.png" alt="project 1">
+          <h3>Project 1</h3>
+        </div>
+        <div class="project">
+          <img src="./img/r.png" alt="project 2">
+          <h3>Project 2</h3>
+        </div>
+        <div class="project">
+          <img src="./img/r.png" alt="project 3">
+          <h3>Project 3</h3>
+        </div>
+        <div class="project">
+          <img src="./img/r.png" alt="project 4">
+          <h3>Project 4</h3>
+        </div>
+        <div class="project">
+          <img src="./img/r.png" alt="project 5">
+          <h3>Project 5</h3>
+        </div>
+        <div class="project">
+          <img src="./img/r.png" alt="project 6">
+          <h3>Project 6</h3>
+        </div>
+      </div>
+    </article>
+
+  </div>
+  <!-- footer all right reserved -->
+  <footer>
+    <p>© 2023 John Doe. Todos os direitos reservados.</p>
+  </footer>
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Projeto 1</h2>
+        <button class="close-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="project-selected">
+          <img src="./img/r.png" alt="project 1">
+          <p>
+            Este projeto foi construído utilizando HTML, CSS e JavaScript. E nele pude aprender a utilizar o
+            conceito de flexbox e grid para construir o layout. Além disso, também aprendi a utilizar o
+            plugin Swiper para criar um carrossel de imagens.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
